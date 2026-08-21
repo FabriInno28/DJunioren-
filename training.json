@@ -1,100 +1,60 @@
 {
   "training": {
-    "title": "Balance und Kontrolle",
-    "subtitle": "Stärke deine Balance und deine Körperkontrolle.",
+    "title": "Kraft und Körperspannung",
+    "subtitle": "Stärke deine Beine und deinen Rumpf.",
     "rounds": 2,
-    "workSeconds": 30,
+    "workSeconds": 55,
     "switchSeconds": 3,
     "pauseSeconds": 10
   },
   "exercises": [
     {
-      "id": "einbeinstand",
-      "title": "Einbeinstand",
-      "teaser": "Trainiere deine Balance.",
-      "soGehts": [
-        "Stell dich auf ein Bein.",
-        "Schau auf einen festen Punkt.",
-        "Trainiere beide Beine."
-      ],
-      "focus": "Bleib so ruhig wie möglich.",
-      "benefit": "Stabil bleiben, wenn du passt oder schiesst.",
-      "images": [
-        "einbeinstand.jpg",
-        "einbeinstand.jpg"
-      ],
-      "labels": [
-        "LINKES BEIN",
-        "RECHTES BEIN"
-      ],
-      "timerCue": "Ruhig stehen. Blick nach vorne."
+      "id": "kniebeuge",
+      "title": "Kniebeuge",
+      "teaser": "Kräftig und kontrolliert.",
+      "soGehts": ["Stell deine Füsse etwa hüftbreit hin.", "Schieb dein Gesäss nach hinten und geh nach unten.", "Richte dich kontrolliert wieder auf."],
+      "focus": "Deine Knie zeigen in Richtung deiner Füsse.",
+      "benefit": "Kräftig beschleunigen und kontrolliert bremsen.",
+      "images": ["kniebeuge_a.jpg", "kniebeuge_b.jpg"],
+      "labels": ["AUFRECHT", "NACH UNTEN"],
+      "seconds": 55,
+      "timerCue": "Langsam runter. Ruhig wieder hoch."
     },
     {
-      "id": "blickwechsel",
-      "title": "Blickwechsel",
-      "teaser": "Bleib stabil, während dein Blick wandert.",
-      "soGehts": [
-        "Stell dich auf ein Bein.",
-        "Schau langsam nach links, zur Mitte und nach rechts.",
-        "Trainiere beide Beine."
-      ],
-      "focus": "Dein Körper bleibt möglichst ruhig.",
-      "benefit": "Dich umschauen, ohne die Kontrolle zu verlieren.",
-      "images": [
-        "blickwechsel_links.jpg",
-        "blickwechsel_links.jpg"
-      ],
-      "mirror": [
-        false,
-        true
-      ],
-      "labels": [
-        "BLICK NACH LINKS",
-        "BLICK NACH RECHTS"
-      ],
-      "timerCue": "Links · Mitte · Rechts. Ruhig bleiben."
+      "id": "rueckwaertsschritt",
+      "title": "Rückwärtsschritt",
+      "teaser": "Stabil zurück und wieder vor.",
+      "soGehts": ["Mach mit einem Fuss einen Schritt nach hinten.", "Geh kontrolliert etwas nach unten.", "Drück dich zurück in den Stand und wechsle die Seite."],
+      "focus": "Bleib mit dem Oberkörper aufrecht.",
+      "benefit": "Dich kräftig abdrücken und stabil bleiben.",
+      "images": ["rueckwaertsschritt_a.jpg", "rueckwaertsschritt_b.jpg"],
+      "labels": ["START", "RÜCKWÄRTSSCHRITT"],
+      "seconds": 55,
+      "timerCue": "Seiten abwechseln. Ruhig kontrollieren."
     },
     {
-      "id": "antippen",
-      "title": "Antippen",
-      "teaser": "Halte die Balance in Bewegung.",
-      "soGehts": [
-        "Steh auf einem Bein.",
-        "Tippe mit dem anderen Fuss nach vorne, zur Seite und nach hinten.",
-        "Komm immer wieder zur Mitte."
-      ],
-      "focus": "Berühr den Boden nur leicht.",
-      "benefit": "Dein Gewicht verlagern und trotzdem stabil bleiben.",
-      "images": [
-        "antippen_a.jpg",
-        "antippen_b.jpg"
-      ],
-      "labels": [
-        "MITTE",
-        "ANTIPPEN"
-      ],
-      "timerCue": "Vorne · Seite · Hinten · Mitte."
+      "id": "beckenheben",
+      "title": "Beckenheben",
+      "teaser": "Starke Hüfte, ruhiger Körper.",
+      "soGehts": ["Leg dich auf den Rücken und stell beide Füsse auf.", "Heb dein Becken langsam an.", "Senk es kontrolliert wieder ab."],
+      "focus": "Beweg dich ruhig und ohne Schwung.",
+      "benefit": "Stabilität für Laufen, Beschleunigen und Bremsen.",
+      "images": ["beckenheben_a.jpg", "beckenheben_b.jpg"],
+      "labels": ["UNTEN", "OBEN"],
+      "seconds": 55,
+      "timerCue": "Hoch. Kurz halten. Ruhig zurück."
     },
     {
-      "id": "beuge",
-      "title": "Einbeinige Beuge",
-      "teaser": "Bleib stabil und kontrolliert.",
-      "soGehts": [
-        "Steh auf einem Bein.",
-        "Beug dein Standbein nur ein kleines Stück.",
-        "Richte dich langsam wieder auf."
-      ],
-      "focus": "Dein Knie zeigt in Richtung deines Fusses.",
-      "benefit": "Kontrolliert bremsen und wieder loslaufen.",
-      "images": [
-        "beuge_a.jpg",
-        "beuge_b.jpg"
-      ],
-      "labels": [
-        "AUFRECHT",
-        "KLEIN BEUGEN"
-      ],
-      "timerCue": "Klein beugen. Ruhig wieder hoch."
+      "id": "unterarmstuetz",
+      "title": "Unterarmstütz",
+      "teaser": "Halte deinen Körper stabil.",
+      "soGehts": ["Stütz dich auf Unterarme und Fussspitzen.", "Mach deinen Körper lang und gerade.", "Halte die Position."],
+      "focus": "Lass deine Hüfte nicht absinken.",
+      "benefit": "Stabil bleiben beim Laufen, Schiessen und im Zweikampf.",
+      "images": ["unterarmstuetz.jpg"],
+      "labels": ["HALTEN"],
+      "seconds": 40,
+      "timerCue": "Lang bleiben. Ruhig atmen."
     }
   ]
 }
