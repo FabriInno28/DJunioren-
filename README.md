@@ -1,12 +1,12 @@
-# 10 Minuten on Top – Training 1 Master
+# Training 1 · Balance & Kontrolle · v4
 
-Funktionaler GitHub-Pages-Master für **Balance & Kontrolle**.
+Vollständiger GitHub-Pages-Master mit vier Übungen, zwei Runden, Timer, Beinwechsel, Pausen und lokaler Trainingsmusik.
 
-## Ablauf
-Übersicht → Übung anschauen → einzeln starten oder gesamtes Training starten → 30 s linkes Bein → 3 s Wechsel → 30 s rechtes Bein → 10 s Pause → nächste Übung. Zwei Runden ergeben inklusive Übergängen rund 10 Minuten.
+## Musik auf iPhone/iPad
+Safari blockiert automatischen Ton vor der ersten Nutzerinteraktion. Deshalb startet die Musik beim Tippen auf **TRAINING STARTEN**, **STARTEN** oder auf den gelben Musikknopf. Danach läuft sie durch Übung, Beinwechsel und Pause weiter.
+
+Die Musikdatei `training-loop.mp3` liegt lokal im Build und benötigt keine externe Verbindung.
 
 ## GitHub Pages
-Alle Dateien direkt ins Root des neuen Repositories laden. In Settings → Pages: Deploy from branch, main, /(root).
-
-## Gestaltungslogik
-Gelb / Schwarz / Warmweiss. Keine Übungsnummerierung auf den Karten. Keine Bottom-Navigation. Timer ist UI und nicht Teil der Übungsbilder.
+Alle Dateien aus dem ZIP ins Root des Repositories kopieren.
+Cache-Version: `balance-kontrolle-v4`.

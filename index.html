@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="de"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0B0D0E"><title>10 Minuten on Top</title>
-<link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./styles.css">
+<meta name="theme-color" content="#0B0D0E"><title>Training 1 · Balance & Kontrolle</title>
+<link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./styles.css?v=4">
 </head><body>
+<audio id="bgMusic" src="./training-loop.mp3" preload="auto" loop playsinline></audio>
 <main id="app">
 <section id="overview" class="screen active">
-  <header class="appbar"><div class="brandmark"><span>10</span><small>MINUTEN<br>ON TOP</small></div><button class="sound" aria-label="Ton">♪</button></header>
+  <header class="appbar"><div class="brandtext">BALANCE &amp; KONTROLLE</div><button class="sound is-on" aria-label="Musik ein oder aus" title="Musik ein oder aus">♫</button></header>
   <div class="overview-wrap">
     <div class="kicker">TRAINING 1</div>
     <h1>BALANCE &amp;<br>KONTROLLE</h1>
@@ -14,11 +15,12 @@
     <div class="overview-meta"><span>4 Übungen</span><span>2 Runden</span><span>ca. 10 Minuten</span></div>
     <div id="exerciseGrid" class="exercise-grid"></div>
     <button id="startTraining" class="primary">TRAINING STARTEN</button>
+    <p class="music-note">♫ Die Musik startet mit dem Training.</p>
   </div>
 </section>
 
 <section id="detail" class="screen">
-  <header class="simplebar"><button class="back" data-back>←</button><span></span><button class="sound">♪</button></header>
+  <header class="simplebar"><button class="back" data-back>←</button><span></span><button class="sound is-on" aria-label="Musik ein oder aus">♫</button></header>
   <div class="detail-wrap">
     <div><h2 id="detailTitle"></h2><div class="yellow-line"></div><p id="detailTeaser" class="detail-teaser"></p></div>
     <div id="detailVisual" class="visual-pair"></div>
@@ -30,19 +32,21 @@
 </section>
 
 <section id="timer" class="screen timer-screen">
-  <header class="simplebar darkbar"><button id="quitTimer">×</button><strong id="timerTitle"></strong><button class="sound">♪</button></header>
+  <header class="simplebar darkbar"><button id="quitTimer">×</button><strong id="timerTitle"></strong><button class="sound is-on" aria-label="Musik ein oder aus">♫</button></header>
   <div class="timer-wrap">
     <div class="phase-chip" id="roundChip">RUNDE 1 VON 2</div>
-    <div id="timerImageWrap" class="timer-image-wrap"><img id="timerImage" alt=""><span class="brand-cover"></span></div>
+    <div id="timerVisual" class="timer-visual"></div>
     <div class="timer-content"><div id="sideLabel" class="side-label"></div><div id="clock" class="clock">00:30</div><div class="ring"><span id="ringBar"></span></div><p id="timerCue" class="timer-cue"></p></div>
   </div>
 </section>
 
 <section id="switch" class="screen switch-screen">
-  <div class="switch-wrap"><div class="switch-word">WECHSELN</div><p>Bereit für das andere Bein.</p><div id="switchCount" class="switch-count">3</div><small>3 · 2 · 1</small></div>
+  <header class="simplebar"><span></span><strong id="switchTitle"></strong><button class="sound is-on" aria-label="Musik ein oder aus">♫</button></header>
+  <div class="switch-wrap"><div class="switch-word">BEIN WECHSELN</div><p>Gleich geht es mit der anderen Seite weiter.</p><div id="switchCount" class="switch-count">3</div><small>3 · 2 · 1</small></div>
 </section>
 
 <section id="pause" class="screen pause-screen">
+  <header class="simplebar pausebar"><span></span><strong>KURZE PAUSE</strong><button class="sound is-on" aria-label="Musik ein oder aus">♫</button></header>
   <div class="pause-wrap"><div class="kicker inverse">KURZ LOCKER</div><div id="pauseCount" class="pause-count">10</div><p>Atme durch. Gleich geht's weiter.</p><div class="next-card"><span>ALS NÄCHSTES</span><h2 id="nextTitle"></h2><p id="nextTeaser"></p></div><button id="skipPause" class="secondary">WEITER</button></div>
 </section>
 
@@ -50,4 +54,4 @@
   <div class="finish-wrap"><div class="finish-mark">✓</div><h1>STARK<br>GEMACHT.</h1><p>Du hast Balance und Kontrolle trainiert.</p><div class="finish-stats"><span>4 Übungen</span><span>2 Runden</span><span>ca. 10 Minuten</span></div><button id="again" class="primary">NOCHMAL</button><button id="homeBtn" class="secondary dark">ZUR ÜBERSICHT</button></div>
 </section>
 </main>
-<script src="./app.js"></script></body></html>
+<script src="./app.js?v=4"></script></body></html>
