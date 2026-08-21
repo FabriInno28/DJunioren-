@@ -1,0 +1,8 @@
+{
+  "name": "10 Minuten on Top – Balance & Kontrolle",
+  "short_name": "10 Min on Top",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F7F5EF",
+  "theme_color": "#0B0D0E"
+}

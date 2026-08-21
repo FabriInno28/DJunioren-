@@ -1,0 +1,100 @@
+{
+  "training": {
+    "title": "Balance und Kontrolle",
+    "subtitle": "Stärke deine Balance und deine Körperkontrolle.",
+    "rounds": 2,
+    "workSeconds": 30,
+    "switchSeconds": 3,
+    "pauseSeconds": 10
+  },
+  "exercises": [
+    {
+      "id": "einbeinstand",
+      "title": "Einbeinstand",
+      "teaser": "Trainiere deine Balance.",
+      "soGehts": [
+        "Stell dich auf ein Bein.",
+        "Schau auf einen festen Punkt.",
+        "Trainiere beide Beine."
+      ],
+      "focus": "Bleib so ruhig wie möglich.",
+      "benefit": "Stabil bleiben, wenn du passt oder schiesst.",
+      "images": [
+        "einbeinstand.jpg",
+        "einbeinstand.jpg"
+      ],
+      "labels": [
+        "LINKES BEIN",
+        "RECHTES BEIN"
+      ],
+      "timerCue": "Ruhig stehen. Blick nach vorne."
+    },
+    {
+      "id": "blickwechsel",
+      "title": "Blickwechsel",
+      "teaser": "Bleib stabil, während dein Blick wandert.",
+      "soGehts": [
+        "Stell dich auf ein Bein.",
+        "Schau langsam nach links, zur Mitte und nach rechts.",
+        "Trainiere beide Beine."
+      ],
+      "focus": "Dein Körper bleibt möglichst ruhig.",
+      "benefit": "Dich umschauen, ohne die Kontrolle zu verlieren.",
+      "images": [
+        "blickwechsel_links.jpg",
+        "blickwechsel_links.jpg"
+      ],
+      "mirror": [
+        false,
+        true
+      ],
+      "labels": [
+        "BLICK NACH LINKS",
+        "BLICK NACH RECHTS"
+      ],
+      "timerCue": "Links · Mitte · Rechts. Ruhig bleiben."
+    },
+    {
+      "id": "antippen",
+      "title": "Antippen",
+      "teaser": "Halte die Balance in Bewegung.",
+      "soGehts": [
+        "Steh auf einem Bein.",
+        "Tippe mit dem anderen Fuss nach vorne, zur Seite und nach hinten.",
+        "Komm immer wieder zur Mitte."
+      ],
+      "focus": "Berühr den Boden nur leicht.",
+      "benefit": "Dein Gewicht verlagern und trotzdem stabil bleiben.",
+      "images": [
+        "antippen_a.jpg",
+        "antippen_b.jpg"
+      ],
+      "labels": [
+        "MITTE",
+        "ANTIPPEN"
+      ],
+      "timerCue": "Vorne · Seite · Hinten · Mitte."
+    },
+    {
+      "id": "beuge",
+      "title": "Einbeinige Beuge",
+      "teaser": "Bleib stabil und kontrolliert.",
+      "soGehts": [
+        "Steh auf einem Bein.",
+        "Beug dein Standbein nur ein kleines Stück.",
+        "Richte dich langsam wieder auf."
+      ],
+      "focus": "Dein Knie zeigt in Richtung deines Fusses.",
+      "benefit": "Kontrolliert bremsen und wieder loslaufen.",
+      "images": [
+        "beuge_a.jpg",
+        "beuge_b.jpg"
+      ],
+      "labels": [
+        "AUFRECHT",
+        "KLEIN BEUGEN"
+      ],
+      "timerCue": "Klein beugen. Ruhig wieder hoch."
+    }
+  ]
+}
